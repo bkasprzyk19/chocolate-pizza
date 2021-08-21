@@ -1,0 +1,196 @@
+
+body{
+
+  width: 901px;
+  margin: 0 auto;
+
+
+}
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.header-img-container {
+ display: flex;
+ flex-direction: row;
+
+}
+
+header section:nth-child(2){
+  display: flex; 
+  justify-content: flex-start;
+}
+
+.icon-container nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-container nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-list-2 {
+  margin-left: 5px;
+}
+
+.chocolate-pizza-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.print {
+  display: flex;
+  flex-direction: column;
+  /* align-content: baseline; */
+
+}
+
+.print img {
+  display: flex;
+  /* flex-direction: column; */
+  align-content: baseline;
+
+}
+
+.directions-container {
+  /* height: 350px; */
+  
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+
+
+}
+
+.directions-container p {
+  margin-bottom: 30px;
+  text-indent: 26px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.17em;
+  color: gray;
+  
+  word-spacing: 1.9px;
+  line-height: 23px;
+
+}
+
+.main-img-container {
+  margin-bottom: 20px;
+  filter: saturate(1.1);
+}
+
+.notepad {
+  background-image: url("img/chocolate-pizza-assets/list-bg.png");
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ height: 305px;
+ align-items: center;
+ font-size: 1.3em;
+ word-spacing: 1.9px;
+ line-height: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.ingredients-list-left {
+  padding-bottom: 46px;
+  margin-right: 80px;
+}
+
+.ingredients-list-right {
+ 
+  padding-bottom: 19px;
+  
+}
+
+.author {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 80px;
+  
+}
+
+.auther-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.17em;
+  color: gray;
+  
+  word-spacing: 1.9px;
+  line-height: 23px;
+  width: 65%;
+
+}
+
+.author-img-container {
+ display: flex;
+ flex-direction: row;
+ 
+}
+button {
+  width: 20%;
+  height: 44px;
+  margin-top: 10px;
+  background-color: rgb(163, 87, 0);
+  color: white;
+}
+
+footer { 
+  display: flex;
+  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.17em;
+  color: gray;
+  font-weight: lighter;
+  word-spacing: 1.9px;
+  line-height: 23px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+ .line-container {
+  width: 100%;
+  position: relative;
+
+
+ }
+
+ .image-line {
+  z-index: 1;
+  position: absolute;
+  right: 50%;
+  bottom: 7px;
+ 
+}
+.break-line {
+  z-index: 0;
+  margin-bottom: 30px;
+  font-weight: lighter;
+ 
+}
+
+.exempt {
+background-color:lightgray;
+/* height: 5px; */
+border: dashed lightgray;
+
+}
